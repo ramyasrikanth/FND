@@ -1,2 +1,2 @@
-git clone https://github.com/matplotlib/matplotlib.git
+!pip install matplotlib
 
