@@ -1,2 +1,2 @@
-git clone git@github.com:matplotlib/matplotlib.git
+git clone https://github.com/matplotlib/matplotlib.git
 
