@@ -5,7 +5,7 @@ from spacy.lang.el.stop_words import STOP_WORDS
 from wordcloud import WordCloud
 from utils import get_page_text
 
-st.set_page_config(page_title = "Greek Fake News Detector")
+st.set_page_config(page_title = "Fake News Detector")
 
 @st.cache(allow_output_mutation=True)
 def get_nlp_model(path):   
@@ -43,7 +43,7 @@ desc = "This web app detects fake news written in the Greek language.\
         Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/giannis-tolios-0020b067/)\
         or via [e-mail](mailto:derevirn@gmail.com)."
 
-st.title("Greek Fake News Detector")
+st.title("Fake News Detector")
 st.markdown(desc)
 st.subheader("Enter the URL address/text of a news article written in Greek")
 select_input = st.radio("Select Input:", ["URL", "Text"])
